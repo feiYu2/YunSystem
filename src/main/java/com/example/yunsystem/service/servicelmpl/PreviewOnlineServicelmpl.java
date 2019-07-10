@@ -1,0 +1,325 @@
+package com.example.yunsystem.service.servicelmpl;
+
+import com.example.yunsystem.service.PreviewOnlineServcie;
+import com.example.yunsystem.util.*;
+import com.itextpdf.text.DocumentException;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FSDataInputStream;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IOUtils;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.*;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.Date;
+
+@Service
+public class PreviewOnlineServicelmpl implements PreviewOnlineServcie {
+    @Value("${HDFS_PATH}")
+    private String HDFS_PATH;
+
+    @Value("${PC_PATH}")
+    private String PC_PATH;
+
+    @Value("${TM_PATH}")
+    private String localName;
+
+    @Value("${TM_PATH}")
+    private String outputName;
+
+
+    @Override
+    public String file2Pdf(@RequestParam String input) throws URISyntaxException, DocumentException {
+        JsonResult jsonResult  = new JsonResult();
+        String fileName = input.substring(input.lastIndexOf("/")+1);
+        String extension = fileName.substring(fileName.lastIndexOf(".")+1);
+        System.out.println("fileName : " + fileName);
+        System.out.println("extension : " + extension);
+        if( extension.equals("ppt")|| extension.equals("pptx")){
+            return ppt2Pdf(input);
+        }
+        if (extension.equals("doc")|| extension.equals("docx")){
+            return word2Pdf(input);
+        }
+        if (extension.equals("xls")|| extension.equals("xlsx")){
+            return excel2Pdf(input);
+        }
+        if (extension.equals("c")|| extension.equals("java")|| extension.equals("txt")|| extension.equals("py")||extension.equals("cpp")||extension.equals("html")){
+            return jc2Pdf(input);
+        }
+        if (extension.equals("pdf")){
+            return pdf2Pdf(input);
+        }
+        if (extension.equals("jpg")|| extension.equals("JPG")|| extension.equals("png")|| extension.equals("gif")|| extension.equals("bmp")){
+            return Img2Pdf(input);
+        }
+        jsonResult.setStatus("转换失败");
+        jsonResult.setResult("暂时不支持此格式");
+        return "下载失败！";
+    }
+
+    public String word2Pdf(@RequestParam String input) throws URISyntaxException {
+        JsonResult result = new JsonResult();
+        Configuration conf = new Configuration();
+        URI uri = new URI(HDFS_PATH);
+        FileSystem fileSystem;
+        Date date = new Date();
+        Long time = date.getTime();
+        try{
+            fileSystem = FileSystem.get(uri, conf);
+            Path inputPath = new Path(input);
+            if (!fileSystem.exists(inputPath)) {
+                result.setStatus("文件不存在");
+            } else {
+                FSDataInputStream fileInput = fileSystem.open(inputPath);
+
+                int i = WordToPdf.run(fileInput,outputName+time+".pdf");
+                switch (i) {
+                    default:
+                        result.setStatus("成功！耗时：" + i);
+                        result.setResult(PC_PATH + "/file/upload/"+time+".pdf");
+                }
+                fileInput.close();
+                return  localName+time+".pdf";
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+            result.setResult(e.getMessage());
+            result.setStatus("下载失败！");
+        }
+
+        return   "下载失败！";
+    }
+
+    public String excel2Pdf(@RequestParam String input) throws URISyntaxException {
+        JsonResult result = new JsonResult();
+        Configuration conf = new Configuration();
+        URI uri = new URI(HDFS_PATH);
+        Date date = new Date();
+        Long time = date.getTime();
+        FileSystem fileSystem;
+        try{
+            fileSystem = FileSystem.get(uri, conf);
+            Path inputPath = new Path(input);
+            if (!fileSystem.exists(inputPath)) {
+                result.setStatus("文件不存在");
+            }else {
+                FSDataInputStream HDFS_IN = fileSystem.open(inputPath);
+                OutputStream OutToLOCAL = new FileOutputStream(localName + input.substring(input.lastIndexOf("/") + 1));
+                IOUtils.copyBytes(HDFS_IN, OutToLOCAL, 1024 * 64, true);
+                String fileName = input.substring(input.lastIndexOf("/") + 1);
+                String fileSuffix = fileName.substring(fileName.lastIndexOf(".")+1);
+                System.out.println(fileSuffix);
+                String localNamePath = localName+input.substring(input.lastIndexOf("/") + 1); //文件后缀名
+                int i = PptToPdf.excel2Pdf(localNamePath,outputName+time+".pdf");
+                File file = new File(localNamePath);
+                file.delete();//删除文件
+                switch (i) {
+                    default:
+                        result.setStatus("成功！耗时：" + i);
+                        result.setResult(PC_PATH + "/upload/"+time+".pdf");
+                }
+                HDFS_IN.close();
+                OutToLOCAL.close();
+                return  localName+time+".pdf";
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+            result.setResult(e.getMessage());
+            result.setStatus("error");
+        }
+        return "下载失败！";
+    }
+
+    public String ppt2Pdf(@RequestParam String input) throws URISyntaxException {
+        //String input = fileService.findFile(id).getFilepath();
+
+        JsonResult result = new JsonResult();
+        Configuration conf = new Configuration();
+        URI uri = new URI(HDFS_PATH);
+        Date date = new Date();
+        Long time = date.getTime();
+        FileSystem fileSystem;
+        try{
+            fileSystem = FileSystem.get(uri, conf);
+            Path inputPath = new Path(input);
+            if (!fileSystem.exists(inputPath)) {
+                result.setStatus("文件不存在");
+            }else {
+                 FSDataInputStream HDFS_IN = fileSystem.open(inputPath);
+                OutputStream OutToLOCAL = new FileOutputStream(localName + input.substring(input.lastIndexOf("/") + 1));
+                IOUtils.copyBytes(HDFS_IN, OutToLOCAL, 1024 * 1024, true);
+                String fileName = input.substring(input.lastIndexOf("/") + 1);
+                String fileSuffix = fileName.substring(fileName.lastIndexOf(".")+1);
+                System.out.println(fileSuffix);
+
+                String localNamePath = localName+input.substring(input.lastIndexOf("/") + 1);
+
+                int i =PptToPdf.ppt2pdf(localNamePath,outputName+time+".pdf");
+                File file = new File(localNamePath);
+                file.delete();//删除文件
+                switch (i) {
+                    default:
+                        result.setStatus("成功！耗时：" + i);
+                        result.setResult(PC_PATH + "/upload/"+time+".pdf");
+                }
+                HDFS_IN.close();
+                OutToLOCAL.close();
+                return  outputName+time+".pdf";
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+            result.setResult(e.getMessage());
+            result.setStatus("下载失败！");
+
+        }
+        return "下载失败！";
+    }
+
+    public String jc2Pdf(@RequestParam String input) throws URISyntaxException,DocumentException {
+        String name = input.substring(input.lastIndexOf("/")+1);//文件名
+        System.out.println(name);
+        String Name = name.substring(0,name.indexOf(".")); //去掉后缀名的文件ming
+        System.out.println(Name);
+        JsonResult result = new JsonResult();
+        Configuration conf = new Configuration();
+        URI uri = new URI(HDFS_PATH);
+        Date date = new Date();
+        Long time = date.getTime();
+        FileSystem fileSystem;
+        try{
+            Path inputPath = new Path(input);
+            fileSystem = FileSystem.get(uri, conf);
+            if (!fileSystem.exists(inputPath)) {
+                result.setStatus("文件不存在");
+            }else {
+                FSDataInputStream HDFS_IN = fileSystem.open(inputPath);
+                OutputStream OutToLOCAL = new FileOutputStream(localName + input.substring(input.lastIndexOf("/") + 1));
+                IOUtils.copyBytes(HDFS_IN, OutToLOCAL, 1024 * 64, true);
+                File file = new File(localName+input.substring(input.lastIndexOf("/") + 1));
+                String newName = Name + ".txt";
+                File newfile = new File(localName+newName);
+                file.renameTo(newfile);
+                String fileSuffix = newName.substring(newName.lastIndexOf(".")+1);
+                System.out.println(fileSuffix);
+
+
+                String localNamePath = localName+newName;
+                TxtToPdf.txt2pdf(localNamePath,outputName+time+".pdf");
+                File file1 = new File(localNamePath);
+                file1.delete();//删除文件
+                result.setStatus("预览成功");
+                result.setResult(PC_PATH + "/upload/"+time+".pdf");
+                HDFS_IN.close();
+                OutToLOCAL.close();
+                return  localName+time+".pdf";
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+            result.setResult(e.getMessage());
+            result.setStatus("下载失败！");
+
+        }
+        return "下载失败！";
+    }
+
+    public String Img2Pdf(@RequestParam String input) throws URISyntaxException,DocumentException {
+        Configuration conf = new Configuration();
+        URI uri = new URI("hdfs://192.168.100.187:9000/");
+        FileSystem fileSystem;
+        JsonResult result = new JsonResult();
+        Date date = new Date();
+        Long time = date.getTime();
+        try{
+            fileSystem = FileSystem.get(uri, conf);
+            Path inputPath = new Path(input);
+            if (!fileSystem.exists(inputPath)) {
+                result.setStatus("该文件不存在");
+            }else {
+                OutputStream OutToLOCAL = new FileOutputStream(localName + input.substring(input.lastIndexOf("/") + 1));
+                FSDataInputStream HDFS_IN = fileSystem.open(inputPath);
+                IOUtils.copyBytes(HDFS_IN, OutToLOCAL, 1024 * 64, true);
+
+                String fileName = input.substring(input.lastIndexOf("/") + 1);
+                String fileSuffix = fileName.substring(fileName.lastIndexOf(".")+1);
+                System.out.println(fileSuffix);
+
+
+                String localNamePath = localName + input.substring(input.lastIndexOf("/") + 1);
+                Img2Pdf.run(localNamePath, outputName + time + ".pdf");
+                File file = new File(localNamePath);
+                file.delete();//删除文件
+                result.setStatus("转换成功");
+                result.setResult(PC_PATH + "/upload/" + time+".pdf");
+                HDFS_IN.close();
+                OutToLOCAL.close();
+                return  localName+time+".pdf";
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+            result.setResult(e.getMessage());
+            result.setStatus("下载失败！");
+
+        }
+        return "下载失败！";
+    }
+
+    public String pdf2Pdf(@RequestParam String input) throws URISyntaxException {
+        Date date = new Date();
+        Long time = date.getTime();
+        JsonResult result = new JsonResult();
+        Configuration conf = new Configuration();
+        URI uri = new URI(HDFS_PATH);
+        FileSystem fileSystem;
+        String fileName = time+".pdf";
+        try{
+            fileSystem = FileSystem.get(uri, conf);
+            Path inputPath = new Path(input);
+            if (!fileSystem.exists(inputPath)) {
+                result.setStatus("文件不存在");
+            }else {
+                FSDataInputStream HDFS_IN = fileSystem.open(inputPath);
+
+                OutputStream OutToLOCAL = new FileOutputStream(localName + fileName);
+                IOUtils.copyBytes(HDFS_IN, OutToLOCAL, 1024 * 64, true);
+                result.setStatus("预览成功");
+                result.setResult(PC_PATH+"/upload/" + fileName);
+                HDFS_IN.close();
+                OutToLOCAL.close();
+                return  localName+time+".pdf";
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+            result.setResult(e.getMessage());
+            result.setStatus("下载失败！");
+
+        }
+        return localName + fileName ;
+    }
+
+
+    @Override
+    public JsonResult pdfDelete( String deletePath) {
+        String Name = deletePath.substring(deletePath.lastIndexOf("/")+1);
+        String Path = localName + Name;
+        JsonResult result = new JsonResult();
+        File file = new File(Path);
+        boolean i = file.delete();//删除文件
+        if(i==true){
+            result.setStatus("删除成功");
+            result.setResult(deletePath);
+        }else {
+            result.setStatus("删除失败");
+            result.setResult(deletePath);
+        }
+        return result ;
+    }
+
+}

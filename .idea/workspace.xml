@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b171e07-2c55-4185-ba1d-8ccdcca5098f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/yunsystem$YunsystemApplication.ic" NAME="YunsystemApplication Coverage Results" MODIFIED="1562504163751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="206" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/ImageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="153" column="131" selection-start-line="153" selection-start-column="131" selection-end-line="153" selection-end-column="131" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#imagePreview#0;class#ImageController#0" />
+                <element signature="method#SortFile#0;class#ImageController#0" />
+                <element signature="method#preview#0;class#ImageController#0" />
+                <element signature="method#previewview#0;class#ImageController#0" />
+                <element signature="method#getIcon#0;class#ImageController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="128" selection-start-line="128" selection-end-line="128" />
+              <folding>
+                <element signature="method#specialDisplay#0;class#AdminController#0" />
+                <element signature="method#InfoDisplay#0;class#AdminController#0" />
+                <element signature="method#InfoDisplay#1;class#AdminController#0" />
+                <element signature="method#UserInfoDisplay#0;class#AdminController#0" />
+                <element signature="method#VipInfoDisplay#0;class#AdminController#0" />
+                <element signature="method#NoVipInfoDisplay#0;class#AdminController#0" />
+                <element signature="method#comSub#1;class#AdminController#0" />
+                <element signature="e#4126#4127#0" expanded="true" />
+                <element signature="e#4179#4180#0" expanded="true" />
+                <element signature="method#TimedEmptying#0;class#AdminController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/CopyFileServicelmpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/AdminServicelmpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="334" column="41" lean-forward="true" selection-start-line="334" selection-start-column="41" selection-end-line="334" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#User_id#0;class#AdminServicelmpl#0" />
+                <element signature="method#users#0;class#AdminServicelmpl#0" />
+                <element signature="method#InfoDisplay#0;class#AdminServicelmpl#0" />
+                <element signature="method#vipInfoDisPlay#0;class#AdminServicelmpl#0" />
+                <element signature="method#novipInfoDisPlay#0;class#AdminServicelmpl#0" />
+                <element signature="method#specificDisply#0;class#AdminServicelmpl#0" />
+                <element signature="method#modeEnable#0;class#AdminServicelmpl#0" />
+                <element signature="method#comView#0;class#AdminServicelmpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/dao/UserInforDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="104" column="26" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="26" />
+              <folding>
+                <element signature="method#insert#0;class#UserInforDao#0" />
+                <element signature="method#query#0;class#UserInforDao#0" />
+                <element signature="method#update#0;class#UserInforDao#0" />
+                <element signature="method#detele#0;class#UserInforDao#0" />
+                <element signature="method#updateAll#0;class#UserInforDao#0" />
+                <element signature="method#find#0;class#UserInforDao#0" />
+                <element signature="method#findByRoleId#0;class#UserInforDao#0" />
+                <element signature="method#findAll#0;class#UserInforDao#0" />
+                <element signature="method#findAllVip#0;class#UserInforDao#0" />
+                <element signature="method#findAllNVip#0;class#UserInforDao#0" />
+                <element signature="method#tobeVip#0;class#UserInforDao#0" />
+                <element signature="method#cancleVip#0;class#UserInforDao#0" />
+                <element signature="method#modeEnable#0;class#UserInforDao#0" />
+                <element signature="method#modeFreeze#0;class#UserInforDao#0" />
+                <element signature="method#findbyID#0;class#UserInforDao#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>parent</find>
+      <find>TxtToPdf</find>
+      <find>myMd5</find>
+      <find>outputFile</find>
+      <find>value</find>
+      <find>RequestMapping</find>
+      <find>Retrying connect to server: 192.168.150.134/192.168.150.134:9000. Already tried 1 time(s); maxRetries=45</find>
+      <find>192.168.150.134</find>
+      <find>192</find>
+      <find>192.168.150</find>
+      <find>redis</find>
+      <find>byMd5AndPathAndFilename</find>
+      <find>logo</find>
+      <find>comReturn</find>
+      <find>save</find>
+      <find>ifPasswd</find>
+      <find>CreateSharedLink</find>
+      <find>username</find>
+      <find>deleteLink</find>
+      <find>time</find>
+      <find>flag</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/here" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/dao/UserStoreDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/SortService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/SortController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/JsonUser2Adm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/DecompressService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/DecompressController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/DecompressServicelmpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/FileServicelmpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/entry/Complaint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/dao/ComplaintDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/entry/RecoveryFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/dao/RecoveryFileDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/DownloadManyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/IconServcieImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/Img2Pdf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/ZipUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/ResultUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserServicelmpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/RecoveryFileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/RecoveryFileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/entry/ShareDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/entry/FileShared.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/FileSharedService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/FileSharedServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/FileSharedController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/PreviewOnlineController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/RecoveryFileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/dao/Md5Dao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/CopyFileServicelmpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/MyStorageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/SearchServcielmpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/SortServicelmpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/Eums/ResultStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/ExcelToPdf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/FileMD5Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/GlobalFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/HDFS_Downloader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/ImageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/GetTreeServicelmpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/dao/UserInforDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/PptToPdf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/PreviewOnlineServicelmpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/BreakPointController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/AdminServicelmpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yunsystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yunsystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yunsystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.mrunit:mrunit:1.1.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-687" />
+    <option name="y" value="17" />
+    <option name="width" value="1535" />
+    <option name="height" value="1085" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yunsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="entry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yunsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="servicelmpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562683909970" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\YunSystem\yunsystem\lib" />
+      <recent name="F:\YunSystem\yunsystem\src\main\resources\static\mapper\mysql\sys" />
+      <recent name="F:\YunSystem\yunsystem\src\main\resources\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\YunSystem\yunsystem\lib" />
+      <recent name="F:\YunSystem\yunsystem\src\main\java\com\example\yunsystem\service\servicelmpl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="YunsystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yunsystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.yunsystem.YunsystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b171e07-2c55-4185-ba1d-8ccdcca5098f" name="Default Changelist" comment="" />
+      <created>1561439906173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561439906173</updated>
+      <workItem from="1561439910546" duration="3218000" />
+      <workItem from="1561443526141" duration="25925000" />
+      <workItem from="1561508599993" duration="18519000" />
+      <workItem from="1561597239608" duration="23854000" />
+      <workItem from="1561639577009" duration="5395000" />
+      <workItem from="1561681785538" duration="17275000" />
+      <workItem from="1561768706507" duration="17175000" />
+      <workItem from="1561856197553" duration="15003000" />
+      <workItem from="1561943357950" duration="1648000" />
+      <workItem from="1561945148597" duration="133000" />
+      <workItem from="1561946540823" duration="11644000" />
+      <workItem from="1562027806186" duration="41678000" />
+      <workItem from="1562114161508" duration="36601000" />
+      <workItem from="1562200681431" duration="27186000" />
+      <workItem from="1562287165670" duration="7625000" />
+      <workItem from="1562298810639" duration="391000" />
+      <workItem from="1562299294432" duration="726000" />
+      <workItem from="1562301605753" duration="1100000" />
+      <workItem from="1562302789919" duration="10406000" />
+      <workItem from="1562315859540" duration="13816000" />
+      <workItem from="1562374034593" duration="42820000" />
+      <workItem from="1562460095733" duration="16788000" />
+      <workItem from="1562480646988" duration="21263000" />
+      <workItem from="1562510616162" duration="327000" />
+      <workItem from="1562546363853" duration="14918000" />
+      <workItem from="1562632654547" duration="21129000" />
+      <workItem from="1562718996022" duration="6179000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="402742000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31032172" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34229138" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25637394" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22804533" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.38668555" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32841823" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20576407" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34229138" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3380481" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.33946252" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.38755304" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32841823" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/FileServicelmpl.java</url>
+          <line>221</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/FileServicelmpl.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/CopyFileController.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/CopyFileServicelmpl.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/ImageController.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/ImageController.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserServicelmpl.java</url>
+          <line>303</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserServicelmpl.java</url>
+          <line>277</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/DownloadManyController.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/DownloadManyController.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/BreakPointController.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/BreakPointController.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserServicelmpl.java</url>
+          <line>403</line>
+          <properties />
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserServicelmpl.java</url>
+          <line>404</line>
+          <properties />
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserServicelmpl.java</url>
+          <line>408</line>
+          <properties />
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserServicelmpl.java</url>
+          <line>416</line>
+          <properties />
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserServicelmpl.java</url>
+          <line>421</line>
+          <properties />
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserServicelmpl.java</url>
+          <line>447</line>
+          <properties />
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/RecoveryFileController.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/RecoveryFileController.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/RecoveryFileController.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/MyStorageServiceImpl.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/AdminServicelmpl.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/AdminServicelmpl.java</url>
+          <line>305</line>
+          <properties />
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UploadToHdfsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="method#uploadHdfs#0;class#UploadToHdfsService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserStoreServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/Eums/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/Eums/ResultStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/FileMD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+          <folding>
+            <element signature="method#getFileMD5#0;class#FileMD5Util#0" />
+            <element signature="method#freedMappedByteBuffer#0;class#FileMD5Util#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/ExcelToPdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="method#run#0;class#ExcelToPdf#0" />
+            <element signature="method#getLicense#0;class#ExcelToPdf#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/GlobalFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="160" column="10" selection-start-line="160" selection-start-column="10" selection-end-line="160" selection-end-column="10" />
+          <folding>
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="method#getDirectorySize#0;class#GlobalFunction#0" />
+            <element signature="method#getHadoopFileSystem#0;class#GlobalFunction#0" />
+            <element signature="method#getFileType#0;class#GlobalFunction#0" />
+            <element signature="method#getFileSize#0;class#GlobalFunction#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/HDFS_Downloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="method#downloadFile#0;class#HDFS_Downloader#0" />
+            <element signature="method#downloadFolder#0;class#HDFS_Downloader#0" />
+            <element signature="method#download#0;class#HDFS_Downloader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/Img2Pdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="method#run#0;class#Img2Pdf#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/JsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="method#status#0;class#JsonResult#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/JsonShare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/JsonSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/JsonUser2Adm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/ResultUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/ResultVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/ZipUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1051">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/WordToPdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/TxtToPdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/福猪/Project3/Project/src/main/java/com/example/Project/serviceImpl/UpOrDownServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/GetTreeServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/FileServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="260" column="103" selection-start-line="260" selection-start-column="103" selection-end-line="260" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#mkdirMulu#0;class#FileServicelmpl#0" />
+            <element signature="method#lookdir#0;class#FileServicelmpl#0" />
+            <element signature="method#rename#0;class#FileServicelmpl#0" />
+            <element signature="method#deleteHDFS#0;class#FileServicelmpl#0" />
+            <element signature="method#move#0;class#FileServicelmpl#0" />
+            <element signature="method#upload#0;class#FileServicelmpl#0" />
+            <element signature="method#decompress#0;class#FileServicelmpl#0" />
+            <element signature="method#Type#0;class#FileServicelmpl#0" />
+            <element signature="method#uploadHDFS#0;class#FileServicelmpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/ControllerFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/SearchServcielmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="method#SearchFile#0;class#SearchServcielmpl#0" />
+            <element signature="method#ReturnSearch#0;class#SearchServcielmpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://H:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3188">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/PreviewOnlineServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+          <folding>
+            <element signature="method#ppt2Pdf#0;class#PreviewOnlineServicelmpl#0" />
+            <element signature="method#jc2Pdf#0;class#PreviewOnlineServicelmpl#0" />
+            <element signature="method#Img2Pdf#0;class#PreviewOnlineServicelmpl#0" />
+            <element signature="method#pdf2Pdf#0;class#PreviewOnlineServicelmpl#0" />
+            <element signature="method#pdfDelete#0;class#PreviewOnlineServicelmpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/entry/Md5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/util/PptToPdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/BreakPointController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkFileMd5#0;class#BreakPointController#0" />
+            <element signature="method#MyCosFileUpload#0;class#BreakPointController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/CopyFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="method#copyFile#0;class#CopyFileController#0" />
+            <element signature="e#836#888#1" />
+            <element signature="method#copyAllFile#0;class#CopyFileController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/DownloadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="method#downloadFile#0;class#DownloadController#0" />
+            <element signature="method#downloadHDFS#0;class#DownloadController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/DownloadManyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="method#downloadFile#0;class#DownloadManyController#0" />
+            <element signature="method#downloadFileBatch#0;class#DownloadManyController#0" />
+            <element signature="method#deleteFile#0;class#DownloadManyController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="method#decompress#0;class#FileController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/FileSharedController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="51" column="92" lean-forward="true" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
+          <folding>
+            <element signature="method#GetSharedLink#0;class#FileSharedController#0" />
+            <element signature="method#AllShare#0;class#FileSharedController#0" />
+            <element signature="method#removeShare#0;class#FileSharedController#0" />
+            <element signature="method#ShareVerify#0;class#FileSharedController#0" />
+            <element signature="e#1779#1843#1" />
+            <element signature="method#ToShare#0;class#FileSharedController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/GetTreeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="method#GetTree#0;class#GetTreeController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/entry/MultipartFileParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/SortServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="method#SortFile#0;class#SortServicelmpl#0" />
+            <element signature="e#3298#5837#1" />
+            <element signature="e#3340#3478#1" />
+            <element signature="method#SortCapacity#0;class#SortServicelmpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="65" column="45" lean-forward="true" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="45" />
+          <folding>
+            <element signature="method#mail#0;class#UserController#0" />
+            <element signature="method#forgetPassword#0;class#UserController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/SortController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="method#SortFile#0;class#SortController#0" />
+            <element signature="method#SortCapacity#0;class#SortController#0" />
+            <element signature="method#SearchFile#0;class#SortController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/RecoveryFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-423">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="method#getRecycleFile#0;class#RecoveryFileController#0" />
+            <element signature="method#moveToRecycleBin#0;class#RecoveryFileController#0" />
+            <element signature="method#restoreRecycleFile#0;class#RecoveryFileController#0" />
+            <element signature="method#restoreRecycleFile#1;class#RecoveryFileController#0" />
+            <element signature="method#deleteRecycleFile#0;class#RecoveryFileController#0" />
+            <element signature="method#deleteRecycleFile#1;class#RecoveryFileController#0" />
+            <element signature="method#deleteAllRecycleFile#0;class#RecoveryFileController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/PreviewOnlineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="167" lean-forward="true" selection-start-line="24" selection-start-column="167" selection-end-line="24" selection-end-column="167" />
+          <folding>
+            <element signature="method#showPdf#0;class#PreviewOnlineController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/ImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="153" column="131" selection-start-line="153" selection-start-column="131" selection-end-line="153" selection-end-column="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#imagePreview#0;class#ImageController#0" />
+            <element signature="method#SortFile#0;class#ImageController#0" />
+            <element signature="method#preview#0;class#ImageController#0" />
+            <element signature="method#previewview#0;class#ImageController#0" />
+            <element signature="method#getIcon#0;class#ImageController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/UserServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1346">
+          <caret line="192" column="59" lean-forward="true" selection-start-line="192" selection-start-column="59" selection-end-line="192" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#userLogin#0;class#UserServicelmpl#0" />
+            <element signature="method#existEmail#0;class#UserServicelmpl#0" />
+            <element signature="method#sendEmail#0;class#UserServicelmpl#0" />
+            <element signature="method#forgetPassword#0;class#UserServicelmpl#0" />
+            <element signature="method#user_logout#0;class#UserServicelmpl#0" />
+            <element signature="method#changeInforLogo#0;class#UserServicelmpl#0" />
+            <element signature="method#changeInforName#0;class#UserServicelmpl#0" />
+            <element signature="method#view_user_information#0;class#UserServicelmpl#0" />
+            <element signature="method#getLogo#0;class#UserServicelmpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="method#specialDisplay#0;class#AdminController#0" />
+            <element signature="method#InfoDisplay#0;class#AdminController#0" />
+            <element signature="method#InfoDisplay#1;class#AdminController#0" />
+            <element signature="method#UserInfoDisplay#0;class#AdminController#0" />
+            <element signature="method#VipInfoDisplay#0;class#AdminController#0" />
+            <element signature="method#NoVipInfoDisplay#0;class#AdminController#0" />
+            <element signature="method#comSub#1;class#AdminController#0" />
+            <element signature="e#4126#4127#0" expanded="true" />
+            <element signature="e#4179#4180#0" expanded="true" />
+            <element signature="method#TimedEmptying#0;class#AdminController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/CopyFileServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/dao/UserInforDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="104" column="26" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="26" />
+          <folding>
+            <element signature="method#insert#0;class#UserInforDao#0" />
+            <element signature="method#query#0;class#UserInforDao#0" />
+            <element signature="method#update#0;class#UserInforDao#0" />
+            <element signature="method#detele#0;class#UserInforDao#0" />
+            <element signature="method#updateAll#0;class#UserInforDao#0" />
+            <element signature="method#find#0;class#UserInforDao#0" />
+            <element signature="method#findByRoleId#0;class#UserInforDao#0" />
+            <element signature="method#findAll#0;class#UserInforDao#0" />
+            <element signature="method#findAllVip#0;class#UserInforDao#0" />
+            <element signature="method#findAllNVip#0;class#UserInforDao#0" />
+            <element signature="method#tobeVip#0;class#UserInforDao#0" />
+            <element signature="method#cancleVip#0;class#UserInforDao#0" />
+            <element signature="method#modeEnable#0;class#UserInforDao#0" />
+            <element signature="method#modeFreeze#0;class#UserInforDao#0" />
+            <element signature="method#findbyID#0;class#UserInforDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/yunsystem/service/servicelmpl/AdminServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="334" column="41" lean-forward="true" selection-start-line="334" selection-start-column="41" selection-end-line="334" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#User_id#0;class#AdminServicelmpl#0" />
+            <element signature="method#users#0;class#AdminServicelmpl#0" />
+            <element signature="method#InfoDisplay#0;class#AdminServicelmpl#0" />
+            <element signature="method#vipInfoDisPlay#0;class#AdminServicelmpl#0" />
+            <element signature="method#novipInfoDisPlay#0;class#AdminServicelmpl#0" />
+            <element signature="method#specificDisply#0;class#AdminServicelmpl#0" />
+            <element signature="method#modeEnable#0;class#AdminServicelmpl#0" />
+            <element signature="method#comView#0;class#AdminServicelmpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>yunsystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
